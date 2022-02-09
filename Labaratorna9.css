@@ -1,0 +1,372 @@
+.navbar {
+  margin-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: fixed;
+  z-index: 9; }
+  .navbar .box {
+    position: fixed;
+    margin-right: 30px; }
+    .navbar .box img {
+      margin-bottom: 3px; }
+  .navbar .input {
+    width: 30px;
+    border: 1px solid transparent;
+    margin-right: -30px;
+    width: 20px;
+    height: 25px;
+    background: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    outline: none;
+    transition: .5s; }
+  .navbar .box:hover input {
+    width: 250px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid black; }
+  .navbar .up {
+    font-family: Bahnschrift;
+    font-style: normal;
+    margin-right: -30px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #156963; }
+  .navbar .in {
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF; }
+
+.btn {
+  padding: 8px 32px;
+  border-radius: 0px; }
+
+.btn_site {
+  background-color: Black;
+  padding: 8px 32px;
+  border-radius: 0px;
+  color: white; }
+
+  .btn_site.alt {
+    background-color: Gray;
+    color: Red; }
+    .btn_site.alt h4 {
+    }
+.carousel {
+  position: relative; }
+  .carousel .carousel-item {
+    min-height: 740px; }
+    .carousel .carousel-item img {
+      height: 740px; }
+    .carousel .carousel-item h1 {
+      font-family: Bahnschrift;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 68px;
+      line-height: 83px;
+      color: #156963; }
+    .carousel .carousel-item .ps {
+      font-family: Bahnschrift;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 32px;
+      color: #2C1500; }
+  .carousel .arrow_block {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+  .carousel .carousel-control-prev-icon {
+    width: 21px;
+    height: 18px;
+    margin-right: 15px; }
+  .carousel .carousel-control-next-icon {
+    width: 21px;
+    height: 18px;
+    margin-left: 15px; }
+}
+  .carousel .hh {
+    font-family: Bahnschrift;
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 39px;
+    color: white; }
+  .carousel .pp {
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: White; }
+  .carousel .ppa {
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: White; }
+
+.btn_p {
+  width: 271px;
+  height: 160px; }
+
+.card {
+  margin-top: 100px;
+  width: 100%;
+  height: 155px; }
+  .card .name {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+    margin-left: 15px; }
+    .card .name img {
+      width: 48px;
+      height: 48px; }
+    .card .name h4 {
+      font-family: Bahnschrift;
+      font-style: normal;
+      margin-left: 20px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      color: #156963; }
+  .card p {
+    font-family: Bahnschrift;
+    font-style: normal;
+    width: 236px;
+    margin: 10px 15px;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: #2C1500; }
+
+.team {
+  width: 100%;
+  margin-top: 80px; }
+  .team .zag {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #E0E0E0;
+    border-width: 0px 0px 1px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .team .zag h4 {
+      font-family: Bahnschrift;
+      font-style: normal;
+      margin-bottom: 20px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000; }
+    .team .zag .drop_btn {
+      background-color: white;
+      color: black;
+      width: 130px;
+      height: 31px;
+      padding: 0px;
+      padding-bottom: 3px; }
+      .team .zag .drop_btn span {
+        font-family: Bahnschrift;
+        font-style: normal;
+        margin-right: 10px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000; }
+  .team .photop {
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 25px; }
+    .team .photop .cart {
+      background-color: #F3F4F6;
+      height: 240px; }
+      .team .photop .cart img {
+        width: 240px;
+        height: 240px; }
+      .team .photop .cart h5 {
+        font-family: Bahnschrift;
+        font-style: normal;
+        margin-top: 20px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000; }
+      .team .photop .cart p {
+        font-family: Bahnschrift;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000; }
+
+.content {
+  flex-wrap: wrap;
+  margin-top: 150px; }
+  .content .tx h4 {
+    font-family: Bahnschrift;
+    font-style: normal;
+    width: 506px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    color: #2C1500; }
+  .content .tx p {
+    font-family: Bahnschrift;
+    font-style: normal;
+    width: 506px;
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2C1500; }
+  .content .tx img {
+    margin-top: 50px;
+    width: 568px;
+    height: 250px; }
+  .content .im {
+    width: 513px;
+    height: 513px; }
+
+.fot {
+  margin-top: 80px;
+  width: 100%;
+  background-color: Black;
+  align-items: center;
+  justify-content: space-between; }
+  .fot .txt h4 {
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    color: #2C1500; }
+  .fot .txt a {
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FAFEFE; }
+  .fot .txt .fu {
+    margin-top: 20px;
+    width: 152px;
+    height: 40px;
+    padding: auto; }
+  .fot .car {
+    width: 480px;
+    height: 360px; }
+
+footer {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  border: 1px solid #B9D2D0;
+  border-width: 1px 0px 0px 0px;
+  justify-content: center; }
+  footer .colum {
+    width: 282px; }
+  footer .co {
+    margin-top: 50px; }
+    footer .co h4 {
+      font-family: Bahnschrift;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 24px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #156963; }
+    footer .co h5 {
+      font-family: Bahnschrift;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #333333; }
+    footer .co p {
+      font-family: Bahnschrift;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 20px;
+      color: #4F4F4F; }
+    footer .co .pf {
+      font-family: Bahnschrift;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      color: #000000; }
+    footer .co .pfc {
+      font-family: Bahnschrift;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      color: #808080;
+      width: 234px;
+      height: 32px;
+      border: 1px solid #F2F2F2; }
+    footer .co a {
+      padding: 3px 0px;
+      font-family: Bahnschrift;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 8px;
+      line-height: 14px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #FFFFFF; }
+    footer .co .fo {
+      width: 51px;
+      height: 22px;
+      border-radius: 2px; }
+
+      a.button {
+        display: inline-block;
+        background: White;
+        color: Black;
+        padding: 12px;
+        border-radius: 3px;
+        text-decoration: none;
+        font-family: Bahnschrift;
+        font-size: 18px;
+        line-height: 1;
+        font-weight: 100;
+      }
+
+      div {
+        margin: 24px;
+        text-align: center;
+      }
+
+      a.button1 {
+        display: inline-block;
+        background: Black;
+        color: White;
+        padding: 12px;
+        border-radius: 3px;
+        text-decoration: none;
+        font-family: Bahnschrift;
+        font-size: 18px;
+        line-height: 1;
+        font-weight: 100;
+      }
+
+      div {
+        margin: 24px;
+        text-align: center;
+      }
